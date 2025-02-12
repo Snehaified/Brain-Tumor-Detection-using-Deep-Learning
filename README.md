@@ -9,6 +9,9 @@ This project presents an in-silico approach for the detection and segmentation o
 - If a tumor is detected, a segmentation model (ResUNet) predicts and highlights the tumor's exact location.
 - The final output consists of the original MRI scan, the actual mask, and the predicted segmentation mask, providing a clear visualization of the tumor region.
   
+### Architecture Diagram for ResNet50
+![image](https://github.com/user-attachments/assets/e3aef69a-568a-48ad-b892-408bb7b6a7ba)
+
 ### Technologies Used
 - Python (Programming Language)
 - TensorFlow, Keras (Deep Learning Frameworks)
@@ -58,7 +61,9 @@ Output:
 - Ground truth mask (actual tumor location)
 - Predicted mask (model's tumor prediction)
 - Overlayed MRI with predicted mask
-  ![image](https://github.com/user-attachments/assets/0436f34d-2f0c-47c6-92da-d40d09475f1c)
+  
+ ![image](https://github.com/user-attachments/assets/0436f34d-2f0c-47c6-92da-d40d09475f1c)
+ 
 Fig: Input MRI scan and its corresponding mask, the MRI image with the actual mask, the mask predicted by the ResUNet model and the MRI image with the predicted mask.
 
 ### Applications
@@ -72,6 +77,4 @@ Fig: Input MRI scan and its corresponding mask, the MRI image with the actual ma
 # Dataset :
  https://www.kaggle.com/mateuszbuda/lgg-mri-segmentation
 
-# Architecture Diagram for ResNet50
-![image](https://github.com/user-attachments/assets/e3aef69a-568a-48ad-b892-408bb7b6a7ba)
 
